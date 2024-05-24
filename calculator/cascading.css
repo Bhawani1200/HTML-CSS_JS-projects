@@ -1,0 +1,48 @@
+.container{
+    margin: auto;
+}
+h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.calc{
+    height: 370px;
+    background: rgb(70, 99, 154);
+    padding: 10px;
+    border-radius: 20px;
+    display: inline-block;
+}
+#answer{
+    background: hotpink;
+    width: 550px;
+    height: 40px;
+    border-radius: 10px;
+    padding-right: 10px;
+    margin-bottom: 18px;
+    text-align: right;
+    letter-spacing: 3px;
+
+}
+input{
+    font-size: 30px;
+    width: 100px;
+    height: 55px;
+    color: forestgreen;
+    border-radius: 8px;
+    margin: 5px;
+    outline: none;
+    border: 3px solid;
+    
+}
+input[type="button"]:hover{
+    cursor: pointer;
+    background-color: rgb(9, 38, 49);
+    color: rgb(161, 13, 119);
+}
+.btn-red{
+    background-color: rgb(214, 17, 17);
+}
+.btn-blue{
+    background-color: aqua;
+}
+
